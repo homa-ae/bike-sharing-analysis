@@ -4,9 +4,9 @@ This project analyzes and predicts urban bike-sharing demand using environmental
 
 ## Tech Stack
 - Language: Python
-- Libraries:
-** Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (Data Processing & Modeling)
-** Matplotlib, Seaborn (Visualization)
+- Libraries:   
+++ Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (Data Processing & Modeling)    
+++ Matplotlib, Seaborn (Visualization)
 
 ## Features
 - Exploratory Data Analysis (EDA) of bike-sharing datasets
