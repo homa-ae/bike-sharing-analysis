@@ -5,8 +5,30 @@ This project analyzes and predicts urban bike-sharing demand using environmental
 ## Tech Stack
 - Language: Python
 - Libraries:   
-  - Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (Data Processing & Modeling)    
-  - Matplotlib, Seaborn (Visualization)
+  - Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (for Data Processing & Modeling)    
+  - Matplotlib, Seaborn (for Visualization)
+ 
+## Technical Workflow
+1. Data Processing & EDA
+    - Aggregated and cleaned hourly (17,379 records) and daily (731 records) datasets.
+    - Performed multi-variate correlation analysis to identify relationships between humidity, wind speed, and total rentals.
+    - Visualized seasonal and monthly trends to capture long-term growth (2011 vs. 2012).
+
+2. Machine Learning Modeling
+    - Algorithms: Compared XGBoost Regressor and Support Vector Regression (SVR).
+    - Optimization: Utilized GridSearchCV for hyperparameter tuning (Learning Rate, Max Depth, C, Epsilon).
+
+    Performance: Achieved an $R^2$ Score of 0.99 through feature scaling and model optimization.
+
+3. Model Interpretability (XAI)
+
+    Implemented SHAP (SHapley Additive exPlanations) to break down the "black box" of the XGBoost model.
+
+    Quantified the impact of features like temperature and working_day on final predictions.
+
+
+
+
 
 ## Features
 - Exploratory Data Analysis (EDA) of bike-sharing datasets
