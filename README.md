@@ -1,13 +1,28 @@
-# bike-sharing-analysis
+# Bike Sharing Analysis
 
-This project analyzes a bike-sharing dataset to uncover usage patterns and build predictive models for demand estimation.
+This project analyzes and predicts urban bike-sharing demand using environmental and temporal data. The goal is to identify usage patterns and build high-accuracy forecasting models to optimize bike availability in smart cities.
+
+## Tech Stack
+- Language: Python
+- Libraries:
+-- Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (Data Processing & Modeling)
+- Matplotlib, Seaborn (Visualization)
+
+## Features
+- Exploratory Data Analysis (EDA) of bike-sharing datasets
+- Data visualizations showing trends by time, location, and user type
+- Insights into peak usage hours, seasonal patterns, and user behavior
+- Optional predictive modeling for bike demand (if included in your project)
 
 ## Project Overview
 The goal of this project is to explore bike rental data, identify key trends, and compare different machine learning models to predict demand.
 
 ## Methodology 
-- Collected the bike-sharing dataset from https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset
-- Clean, well-structured with no missing values
+
+## Dataset
+- Source: [Kaggle - Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset)  
+- Data is clean and well-structured, suitable for analysis and prediction tasks
+- Includes: hourly and daily records with features such as weather, seasonality, and time  
 
 Exploratory Data Analysis (EDA)
 Analyzed the relationship between demand and variables like time, weather, and day of the week
