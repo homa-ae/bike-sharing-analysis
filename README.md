@@ -6,12 +6,8 @@ This project analyzes a bike-sharing dataset to uncover usage patterns and build
 The goal of this project is to explore bike rental data, identify key trends, and compare different machine learning models to predict demand.
 
 ## Methodology 
-Data Collection and Cleaning
-Collected the bike-sharing dataset from https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset
-
-
-Clean, well-structured with no missing values. 
-<img width="568" height="53" alt="image" src="https://github.com/user-attachments/assets/4b517df5-f582-43cb-8401-b5e8f380e0c4" />
+- Collected the bike-sharing dataset from https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset
+- Clean, well-structured with no missing values
 
 Exploratory Data Analysis (EDA)
 Analyzed the relationship between demand and variables like time, weather, and day of the week
