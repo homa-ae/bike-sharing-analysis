@@ -8,8 +8,8 @@ This project analyzes and predicts urban bike-sharing demand using environmental
   - Pandas, NumPy, Scikit-Learn, XGBoost, SHAP (for Data Processing & Modeling)    
   - Matplotlib, Seaborn (for Visualization)
  
-## Technical Workflow
-1. Data Processing & EDA  
+## Technical Workflow  
+1. Data Processing & EDA     
     - Aggregated and cleaned hourly (17,379 records) and daily (731 records) datasets.
     - Performed multi-variate correlation analysis to identify relationships between humidity, wind speed, and total rentals.
     - Visualized seasonal and monthly trends to capture long-term growth (2011 vs. 2012).
