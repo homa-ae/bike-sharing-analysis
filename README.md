@@ -7,7 +7,7 @@ The goal of this project is to explore bike rental data, identify key trends, an
 
 ## Methodology 
 Data Collection and Cleaning
-Collected the bike-sharing dataset from https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset
+Collected the bike-sharing dataset from <https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset>
 
 
 Cleaned the data (handled missing values, outliers, etc.)
