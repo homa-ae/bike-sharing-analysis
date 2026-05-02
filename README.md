@@ -8,7 +8,7 @@ The goal of this project is to explore bike rental data, identify key trends, an
 ## Methodology 
 Data Collection and Cleaning
 Collected the bike-sharing dataset from https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset
-<img width="716" height="53" alt="image" src="https://github.com/user-attachments/assets/788c2edd-849f-4fde-b230-8e85d7b78338" />
+
 
 Cleaned the data (handled missing values, outliers, etc.)
 Exploratory Data Analysis (EDA)
